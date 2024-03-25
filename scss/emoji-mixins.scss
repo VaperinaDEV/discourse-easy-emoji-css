@@ -1,0 +1,7 @@
+@mixin emoji($emoji-set, $emoji-name, $width, $height) {  
+  width: $width;
+  height: $height;
+  background-image: url(../images/emoji/#{$emoji-set}/#{$emoji-name}.png?v=12);
+  background-size: $width $height;
+  background-repeat: no-repeat;
+}
